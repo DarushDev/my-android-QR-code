@@ -32,7 +32,7 @@ public class ScanActivity extends AppCompatActivity implements BarcodeReader.Bar
         barcodeReader.playBeep();
 
         // ticket details activity by passing barcode
-        Intent intent = new Intent(ScanActivity.this, TicketActivity.class);
+        Intent intent = new Intent(ScanActivity.this, TicketResultActivity.class);
         intent.putExtra("code", barcode.displayValue);
         startActivity(intent);
     }

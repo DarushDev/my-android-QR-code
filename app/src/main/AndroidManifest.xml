@@ -19,7 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ScanActivity"/>
+        <activity android:name=".ScanActivity" />
+        <activity
+            android:name=".TicketResultActivity"
+            android:label="@string/title_activity_ticket"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
